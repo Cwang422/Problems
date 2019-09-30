@@ -7,7 +7,7 @@ package facebookinterview;
 
 /**
  *
- * @author 14379
+ * @author Cong Wang
  */
 
 class FaceBookInterview
