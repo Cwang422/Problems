@@ -7,7 +7,7 @@ package mymergesort;
 
 /**
  *
- * @author 14379
+ * @author Cong Wang
  */
 public class MyMergeSort
 {
