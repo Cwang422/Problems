@@ -4,13 +4,27 @@ class Solution
     {
         boolean result = true;
         List<Integer> digits = new ArrayList<Integer>();
+        if(n == 1)
+        {
+            result = true;
+        }
+        else
+        {
+            
         digits = convert(n);
         int counter = 1;
-        while((process(digits) != 1)&&(counter<=20))
+        while((process(digits) != 1)&&(counter<=100))
         {
             digits = convert(process(digits));
             counter++;
+            if(counter == 90)
+            {
+                result = false;
+                break;
+            }
+        }   
         }
+        
         return result;
     }
     
